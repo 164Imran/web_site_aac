@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Consolas, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bod {
+    text-align: center;
+    font-size: x-large;
+}
+.logo {
+    margin-right: 50px;  /* Espace entre l'image et le texte */
+    align-items: center;
+}
+
+h1 {
+    margin-left: 20px;  /* Espace entre le texte et l'image */
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#accueil {
+    background-color: #000000;
+    text-align: left;
+    color: white;
+}
+.intro{
+    display: flex;
+    align-items: end; 
+}
+#evenements {
+    background-color: #ffffff;
+}
+
+.events {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.event {
+    background-color: #f2f55b42;
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px #f2f55b42;
+}
+
+.event h3 {
+    color: #007BFF;
+}
+
+.nav-link{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: black;  /* Couleur du bouton */
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;  /* Animation douce */
+}
+
+.nav-link:hover {
+  transform: scale(1.1);  /* Agrandit le bouton au survol */
+  background-color: white;  /* Change la couleur de fond au survol */
+  color : black
+}
+
+#equipe {
+    background-color: #ffffff;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.member {
+    text-align: center;
+    width: 45%;
+}
+
+#reseau nav ul {
+    display: flex;
+    justify-content: center;  /* Centre les éléments horizontalement */
+    align-items: center;      /* Centre les éléments verticalement */
+    padding: 0;
+    list-style-type: none;    /* Supprime les puces de la liste */
+    text-align: center;
+}
+
+#reseau nav ul li {
+    display: flex;
+    flex-direction: column;  /* Place l'image au-dessus du texte */
+    margin: 10px;            /* Ajoute un petit espacement entre les éléments */
+    align-items: center;
+    text-align: center;
+}
+.navlink{
+  display: in-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: white;  /* Couleur du bouton */
+  color: black;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;  /* Animation douce */
+}
+
+.navlink:hover {
+  transform: scale(1.08);  /* Agrandit le bouton au survol */
+  background-color: #f2f55b42;  /* Change la couleur de fond au survol */
+}
+
+insta
+
+
+#contact {
+    background-color: #fcff56;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
